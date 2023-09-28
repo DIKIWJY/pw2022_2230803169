@@ -1,0 +1,51 @@
+.container {
+  margin: 0 auto;
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    width: 90%;
+  
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: #0a0a0a;
+  background-image: url('img/uin.jpeg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top; /* Mengatur gambar latar belakang di sebelah kanan atas */
+   
+   
+}
+hr {
+  border: none; /* Menghilangkan garis bawaan */
+  height: 1px; /* Ketebalan garis */
+  background-color: #2d3030; /* Warna garis */
+  margin: 5px 0; /* Jarak atas dan bawah dari <hr> */
+}
+
+/* Media Queries*/
+
+/* Laptop*/
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* Tablet*/
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  /* Mobile Phone*/
+  @media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  }
+}

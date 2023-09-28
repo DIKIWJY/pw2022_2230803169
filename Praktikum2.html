@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry</title>
+    <style>
+        body{
+        font-family: "Poppins", sans-serif;
+        background-color: var(--bg);
+        color: #1900ff;
+        background-image: url('img/uinrf.jpg'); 
+        background-size: cover;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-position: right top; 
+
+        }
+
+    </style>
+
+</head>
+<body >
+    <h2 align="center"><font color="navy">Data Entry</font></h2>
+    <form action="proses.asp" method="post"
+    name="form">
+     <table width="50%" border="0" align="center"
+    cellpadding="0">
+     <tr>
+     <td width="33%">1. Nama</td>
+     <td width="3%">:</td>
+     <td width="64%"><input name="txtNama"
+    type="text" id="txtNama"></td>
+     </tr>
+     <tr>
+        <td width="33%">2. NIM</td>
+        <td width="3%">:</td>
+        <td width="64%"><input name="txtNRP"
+       type="text" id="txtNRP"></td>
+       </tr>
+       <tr>
+        <td width="33%">3. Kelas</td>
+        <td width="3%">:</td>
+        <td width="64%"><input name="txtKelas"
+        type="text" id="txtKelas"></td>
+        </tr>
+        <tr>
+            <td>4. Jenis Kelamin</td>
+            <td>:</td>
+            <td><input name="radJk" type="radio"
+            value="1" checked>
+            Laki-Laki
+            <input type="radio" name="radJk"
+            value="2">
+            Perempuan</td>
+            </tr>
+            <tr>
+                <td>5. Agama</td>
+                <td>:</td>
+                <td><select name="cboJob" id="cboJob">
+                <option>Islam</option>
+                <option>Kristen</option> <option>Hindhu</option>
+                <option>Budha</option>
+                </select></td>
+                </tr>
+             <tr>
+                <td >6. Tempat/Tanggal Lahir</td>
+                <td>:</td>
+                <td><input name="txtTempat" type="text"
+                    id="txtTempat" size="12" maxlength="25">
+                        /
+                    <input name="txttgl" type="text"
+                    id="txttgl" size="20" maxlength="20">
+                    </tr>
+                    <tr>
+                    <td>7. Alamat</td>
+                    <td>:</td>
+                    <td><textarea name="txtAlamat" cols="40"
+                    rows="2" id="txtAlamat"></textarea></td>
+                    </tr> 
+                <tr>
+                   <td width="33%">8. Riwayat Pendidikan</td>
+                   <td width="3%">: </td>
+                   <td width="64%"></td>
+                <tr>
+                    <td>a. SD</td>
+                    <td>:</td>
+                    <td><input type="text" id="sekolah1" name="sekolah1" placeholder="Nama Sekolah SD"><br>
+                    </td></tr>
+                    <tr>
+                    <td>b. SMP</td>
+                    <td>:</td>
+                    <td><input type="text" id="sekolah2" name="sekolah2" placeholder="Nama Sekolah SMP"><br>
+                    </td></tr>
+                    <tr>
+                    <td>c. SMA</td>
+                    <td>:</td>
+                    <td><input type="text" id="sekolah3" name="sekolah3" placeholder="Nama Sekolah SMA"><br>
+                    </td></tr>
+
+                                
+                <td>9. Email</td>
+                <td>:</td>
+                <td><input name="txtEmail" type="text"
+                    id="txtEmail"></td>
+                    </tr>
+                <tr>
+                    <td>10. Homepage</td>
+                    <td>:</td>
+                    <td><input name="txtHomepage" type="text"
+                        id="txtHomepage"></td>
+                        </tr>
+                        <tr>
+                        <td>11. Hobby</td>
+                        <td>:</td>
+                        <td><textarea name="txtEmail" cols="20"
+                        rows="2" id="txtEmail"></textarea>
+                    </td>                 
+                </tr>
+            <tr>
+                <td>12. Interest</td>
+                <td>:</td>
+                <td><input name="cekKomputer" type="checkbox"
+               id="cekKomputer" value="1">
+                Komputer</td>
+                </tr>
+                <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input name="cekSport" type="checkbox"
+               id="cekSport" value="2">
+                Sport</td>
+                </tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input name="cekTraveling" type="checkbox"
+               id="cekTraveling" value="1">
+                Traveling</td>
+                </tr>
+                <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input name="cekWriting" type="checkbox"
+               id="cekWriting" value="3">
+                Writing </td>
+                </tr>
+                <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input name="cekReading" type="checkbox"
+               id="cekReading" value="4">
+                Reading</td>
+                </tr>
+                <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input name="btnSimpan" type="submit"
+               id="btnSimpan" value="Simpan">
+                <input name="btnReset" type="reset"
+               id="btnReset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+     
+                    
